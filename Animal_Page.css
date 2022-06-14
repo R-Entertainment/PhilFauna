@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Kingthings Organica";
+    src: url('Fonts/Kingthings\ Organica.ttf');
+}
+@font-face {
+    font-family: "Hankenround Regular";
+    src: url('Fonts/hankenround-Regular.ttf');
+}
+@font-face {
+    font-family: "Mitr Regular";
+    src: url('Fonts/Mitr-Regular.ttf');
+}
+@font-face {
+    font-family: "Mitr Light";
+    src: url('Fonts/Mitr-Light.ttf');
+}
+@font-face {
+    font-family: "Mitr Bold";
+    src: url('Fonts/Mitr-Bold.ttf');
+}
+@font-face {
+    font-family: "Mitr Medium";
+    src: url('Fonts/Mitr-Medium.ttf');
+}
+@font-face {
+    font-family: "Mitr SemiBold";
+    src: url('Fonts/Mitr-SemiBold.ttf');
+}
+
+.body {
+    font-family: Hankenround Regular;
+    background-color: #e4e4e4;
+}
+
+.headImage {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-size: 100%;
+    background-image: linear-gradient( to bottom right, transparent, #99ed31), url(PH_Eagle/PH_Eagle.png);
+    justify-content: center;
+}
+
+.animalName {
+    position: relative;
+    font-family: Kingthings Organica;
+    -webkit-text-stroke: 2px #e4e4e4;
+    line-height: 69vh;
+    font-size: 40px;
+    z-index: 2;
+}
+
+h3 {
+    font-family: Mitr Regular;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+}
+
+.textarea {
+    width: 100%;
+    height: 70vh;
+}
+
+.textarea p {
+    font-family: Hankenround Regular;
+    font-weight: bold;
+    text-align: center;
+}
+
+.IUCNRedListContainer {
+    margin: auto;
+    width: 50vh;
+    height: 30vh;
+    justify-content: center;
+    vertical-align: top;
+    text-align: center;
+}
+
+.IUCNRedListContainer img {
+    width: 100%;
+    height: 27vh;
+    justify-content: center;
+    vertical-align: top;
+}
+
+
