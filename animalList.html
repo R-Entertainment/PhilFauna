@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhilFauna - Fauna</title>
+    <link rel="icon" type="image/x-icon" href="PhilFauna_Favicon.png">
+    <link rel="stylesheet" type="text/css" media="all" href="animalList.css">
+    <link rel="stylesheet" type="text/css" media="all" href="Home_Page.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="PhilFauna_Logo_White.png" alt="PhilFauna Logo White"></a>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="animalList.html">FAUNA</a></li>
+            <li><a href="Contact_Us.html">CONTACT US</a></li>
+            <li><a href="About_Us.html">ABOUT US</a></li>
+        </ul>
+    </header><br><br><br><br><br><br><br>
+
+    <section class="searchContainer">
+        <div class="intro">
+            <h1>FAUNA - ANIMAL SELECTION</h1>
+            <p>Browse the fauna below or use the search bar.</p>
+        </div>
+
+        <div class="navsearch">
+            <div class="Luzonbtn"><a href="Luzon.html">LUZON</a></div>
+            <div class="Visayasbtn"><a href="Visayas.html">VISAYAS</a></div>
+            <div class="Mindanaobtn"><a href="Mindanao.html">MINDANAO</a></div>
+    </section><br><br><br>
+
+    <section class="cardsContainer">
+        <div class="animalContainer">
+            <div class="animal"><a href="Davids_Tiger.html">
+                <div class="card">
+                    <div class="Image"><img src="Davids_Tiger/Davids_Tiger.png" alt=""></div>
+                    <div class="Link">David's Tiger</div>
+                </div>
+            </div></a>
+
+            <div class="animal"><a href="Luzon_BleedingHeart.html">
+                <div class="card">
+                    <div class="Image"><img src="Luzon_Bleedingheart/Luzon_Bleeding-heart.png" alt=""></div>
+                    <div class="Link">Luzon Bleeding-heart</div>
+                </div>
+            </div></a>
+
+            <div class="animal"><a href="Manila_Sea_Catfish.html">
+                <div class="card">
+                    <div class="Image"><img src="Manila_Sea_Catfish/Manila_Sea_Catfish.png" alt=""></div>
+                    <div class="Link">Manila Sea Catfish</div>
+                </div>
+            </div></a>
+
+            <div class="animal"><a href="Mindanao_Caecilian.html">
+                <div class="card">
+                    <div class="Image"><img src="Mindanao_Caecilian/Mindanao_Caecilian.png" alt=""></div>
+                    <div class="Link">Mindanao Caecilian</div>
+                </div>
+            </div></a>
+
+            <div class="animal"><a href="Philippine_Eagle.html">
+                <div class="card">
+                    <div class="Image"><img src="PH_Eagle/PH_Eagle.png" alt=""></div>
+                    <div class="Link">Philippine Eagle</div>
+                </div>
+            </div></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4> Links </h4>
+                    <ul>
+                        <li><a href="index.html"> Home </a></li>
+                        <li><a href="animalList.html"> Fauna </a></li>
+                        <li><a href="Contact_Us.html"> Contact Us </a></li>
+                        <li><a href="About_Us.html"> About Us </a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4> Locations </h4>
+                    <ul>
+                        <li><a href="#"> Manila, Philippines </a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4> Contact Us </h4>
+                    <ul>
+                        <li><a href="#"> philfauna@gmail.com </a></li>
+                        <li><a href="#"> +639195958713 </a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <br><br>&copy;2022 PhilFauna&trade;. All rights reserved. The pictures used and showcased all belong to their respective owners.
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function() {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+</body>
+
+</html>

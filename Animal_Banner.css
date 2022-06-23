@@ -1,0 +1,54 @@
+.headImg-PHEagle{
+    background-image: linear-gradient( to bottom right, transparent, #99ed31), url(PH_Eagle/PH_Eagle.png);
+    height: 40vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0px 5px 15px rgba(78,78,78,0.8);
+    border-radius: 10px;
+}
+
+.headImg-DT{
+    background-image: linear-gradient( to bottom right, transparent, #99ed31), url(Davids_Tiger/Davids_Tiger.png);
+    height: 40vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0px 5px 15px rgba(78,78,78,0.8);
+    border-radius: 10px;
+}
+
+.headImg-LBh{
+    background-image: linear-gradient( to bottom right, transparent, #99ed31), url(Luzon_Bleedingheart/Luzon_Bleeding-heart.png);
+    height: 40vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0px 5px 15px rgba(78,78,78,0.8);
+    border-radius: 10px;
+}
+
+.headImg-MSC{
+    background-image: linear-gradient( to bottom right, transparent, #99ed31), url(Manila_Sea_Catfish/Manila_Sea_Catfish4.png);
+    height: 40vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0px 5px 15px rgba(78,78,78,0.8);
+    border-radius: 10px;
+}
+
+.headImg-MCN{
+    background-image: linear-gradient( to bottom right, transparent, #99ed31), url(Mindanao_Caecilian/Mindanao_Caecilian.png);
+    height: 40vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0px 5px 15px rgba(78,78,78,0.8);
+    border-radius: 10px;
+}
